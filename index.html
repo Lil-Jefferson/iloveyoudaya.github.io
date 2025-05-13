@@ -88,6 +88,39 @@
             font-style: italic;
             color: #e91e63;
         }
+        
+        /* Nuevos estilos agregados */
+        .double-column {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        
+        .column {
+            width: 48%;
+            text-align: left;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .photo-gallery {
+            width: 100%;
+            margin: 30px auto;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border: 2px dashed #ff4081;
+        }
+        
+        .gallery-title {
+            font-family: 'Dancing Script', cursive;
+            color: #d32f2f;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body>
@@ -118,6 +151,35 @@
             <p class="love-note">"Cada dia a tu lado es todo lo que puedo desear"</p>
             <p class="love-note">"Nuestro amor es mi historia favorita, y apenas vamos por el primer capítulo"</p>
             <p class="love-note">"El tiempo junto a ti vuela, pero cada segundo queda grabado en mi corazón"</p>
+        </div>
+        
+        <!-- Nuevos párrafos en dos columnas -->
+        <div class="double-column">
+            <div class="column">
+                <p>1. Eres la luz que ilumina mis días más oscuros.</p>
+                <p>2. Tu sonrisa es mi motivación cada mañana.</p>
+                <p>3. No existe un lugar en el mundo donde me sienta mejor que a tu lado.</p>
+                <p>4. Cada momento contigo se convierte en un recuerdo invaluable.</p>
+                <p>5. Prometo amarte en esta vida y en todas las que sigan.</p>
+            </div>
+            <div class="column">
+                <p>1. Tu amor es el regalo más grande que he recibido.</p>
+                <p>2. Contigo aprendí el verdadero significado de la felicidad.</p>
+                <p>3. Eres mi confidente, mi compañera y mi mayor amor.</p>
+                <p>4. No hay distancia ni tiempo que pueda disminuir lo que siento por ti.</p>
+                <p>5. Eres mi hoy, mi mañana y mi eternidad.</p>
+            </div>
+        </div>
+        
+        <!-- Marco rectangular para galería de fotos -->
+        <div class="photo-gallery">
+            <div class="gallery-title">Nuestros Mejores Momentos</div>
+            <p>Aquí puedes agregar tus fotos juntos</p>
+            <!-- Puedes añadir imágenes aquí -->
+            <!-- Ejemplo:
+            <img src="foto1.jpg" width="200" style="margin: 10px;">
+            <img src="foto2.jpg" width="200" style="margin: 10px;">
+            -->
         </div>
         
         <div class="heart">❤️</div>
