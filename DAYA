@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para el Amor de Mi Vida ❤️</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(45deg, #fff5f5, #ffebee);
+            margin: 0;
+            padding: 0;
+            color: #5c3a3a;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            color: #d32f2f;
+            font-size: 3em;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .heart {
+            font-size: 60px;
+            animation: beat 1.2s infinite;
+            color: #ff4081;
+            margin: 20px 0;
+        }
+        
+        @keyframes beat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        
+        .message-box {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ffcdd2;
+        }
+        
+        .love-note {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+        
+        .anniversary {
+            background: linear-gradient(45deg, #ffeb3b, #ff9800);
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 25px 0;
+            font-weight: bold;
+        }
+        
+        .photo-frame {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            border: 5px solid #ff4081;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            font-style: italic;
+            color: #e91e63;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤️</div>
+        <h1>I LOVE YOU MORE THAN ANYTHING</h1>
+        
+        <div class="message-box">
+            <p class="love-note">I love you with all my heart</p>
+            <p class="love-note">I'm deeply in love with you</p>
+        </div>
+        
+        <div class="message-box" style="background: rgba(255, 235, 235, 0.9);">
+            <p>"Hoy es un día bonito, estoy demasiado feliz y quería recordarte lo muchísimo que te amo mi corazón"</p>
+        </div>
+        
+        <!-- Marco para foto (reemplaza "foto.jpg" con tu imagen) -->
+        <div class="photo-frame">
+            <img src="https://i.imgur.com/xyPtn4m.jpg" alt="Nuestra foto">
+        </div>
+        
+        <!-- Mensajes de aniversario -->
+        <div class="anniversary">
+            <p>✨ Feliz Aniversario ✨</p>
+        </div>
+        
+        <div class="message-box">
+            <p class="love-note">"Cada día a tu lado es un regalo que atesoro con todo mi ser"</p>
+            <p class="love-note">"Nuestro amor es mi historia favorita, y apenas vamos por el primer capítulo"</p>
+            <p class="love-note">"El tiempo junto a ti vuela, pero cada segundo queda grabado en mi corazón"</p>
+        </div>
+        
+        <div class="heart">❤️</div>
+        
+        <div class="footer">
+            <p>Hecho con todo el amor del mundo para ti</p>
+            <p>Para siempre tuyo/a...</p>
+        </div>
+    </div>
+</body>
+</html>
