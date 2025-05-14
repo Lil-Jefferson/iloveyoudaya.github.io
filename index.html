@@ -121,6 +121,42 @@
             font-size: 1.8em;
             margin-bottom: 15px;
         }
+        
+        /* Estilo para el marco especial de la imagen ojitos */
+        .special-frame {
+            display: inline-block;
+            padding: 10px;
+            background: linear-gradient(45deg, #ffcdd2, #f8bbd0);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: 3px solid #e91e63;
+            margin: 15px 0;
+        }
+        
+        /* Nuevo estilo para texto con imagen al lado */
+        .text-with-image {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 30px 0;
+            text-align: left;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .text-content {
+            width: 60%;
+            padding-right: 20px;
+        }
+        
+        .side-image {
+            width: 35%;
+            border-radius: 10px;
+            border: 3px solid #ff4081;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 <body>
@@ -170,15 +206,23 @@
             </div>
         </div>
         
-        <!-- Marco rectangular para galería de fotos -->
+        <!-- Marco rectangular para galería de fotos con marco especial -->
         <div class="photo-gallery">
             <div class="gallery-title">Te adoro muchisimo corazon</div>
             <p>Muak</p>
-            <!-- Puedes añadir imágenes aquí -->
-            <!-- Ejemplo:-->
-            <img src="snoopy1.jpg" width="200" style="margin: 10px;">
-            <img src="ojitos.jpg" width="200" style="margin: 10px;">
-            
+            <div class="special-frame">
+                <img src="ojitos.jpg" width="200" style="margin: 10px;">
+            </div>
+        </div>
+        
+        <!-- Nueva sección de texto con imagen al lado -->
+        <div class="text-with-image">
+            <div class="text-content">
+                <h3 style="color: #d32f2f; font-family: 'Dancing Script', cursive;">Un mensaje especial para ti</h3>
+                <p>Quiero que sepas que cada día que pasa, mi amor por ti crece más. Eres la razón por la que sonrío al despertar y el último pensamiento antes de dormir. No hay distancia que pueda disminuir lo que siento por ti, porque llevas mi corazón contigo dondequiera que vayas.</p>
+                <p>Prometo seguir haciendo todo lo posible para hacerte feliz, porque tu felicidad es la mía. Eres mi sueño hecho realidad y no puedo esperar para crear miles de recuerdos más juntos.</p>
+            </div>
+            <img class="side-image" src="foto-derecha.jpg" alt="Nuestro momento especial">
         </div>
         
         <div class="heart">❤️</div>
